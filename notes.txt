@@ -11,3 +11,8 @@ Background:
 Text:
 #b1365b
     
+
+previous divider:
+aabbcb
+
+
