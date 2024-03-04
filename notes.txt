@@ -5,9 +5,9 @@
 
 
 Background:
-    #ffefef
+#ffefef
 
 
-    Tex:
-    #b1365b
+Text:
+#b1365b
     
