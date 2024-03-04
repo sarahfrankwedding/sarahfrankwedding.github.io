@@ -12,11 +12,11 @@ body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: 'Recursive', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  color: #444444;
+  color: #b1365b;
 }
 
 a {
-  color: #AABBCB;
+  color: #f4a960;
 }
 
 a:hover {
@@ -24,8 +24,14 @@ a:hover {
   text-decoration: none;
 }
 
+h0 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3em;
+  color: #f4a960;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Recursive', sans-serif;
+  /* font-family: 'Recursive', sans-serif; */
   font-family: 'Roboto Condensed', sans-serif;
   /* font-family: "Poppins", sans-serif; */
 }
@@ -49,13 +55,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #AABBCB;
-  color: #fff;
+  background: #ffefef;
+  color: #f4a960;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #7b27d8;
+  background: #ffefef;
   color: #fff;
 }
 
@@ -78,8 +84,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #aabbcb;
-  border-top-color: #e7e4fe;
+  border: 6px solid #ffefef;
+  border-top-color: #ffefef;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -124,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(170, 187, 203, 0.9);
+  background: #ffefef;
   padding: 12px 0;
 }
 
@@ -139,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #F0A247;
 }
 
 #header .logo img {
@@ -178,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(240, 162, 71, 1.0);
   transition: 0.3s;
   font-size: 15px;
   font-weight: 600;
@@ -193,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #fff;
+  background-color: #b1365b;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -205,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+  color: #b1365b;
 }
 
 .nav-menu .drop-down ul {
@@ -217,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #fff;
+  background: #b1365b;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -423,9 +429,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.0) 0%, rgba(116, 15, 214, 0.0) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(255, 239, 239, 0.0) 0%, rgba(235, 159, 162, 0.0) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
+
 
 #hero .container, #hero .container-fluid {
   padding-top: 84px;
@@ -540,7 +547,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f9f8ff;
+  background-color: #ffefef;
 }
 
 .section-title {
@@ -1495,9 +1502,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #fff;
+  color: #F0A247;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(170, 187, 203, 0.9) 0%, rgba(170, 187, 203, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg,  rgba(255, 239, 239, 0.9) 0%, rgba(255, 239, 239, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
